@@ -1,0 +1,147 @@
+/* CSS for styling chat interface */
+
+/* Main container */
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+/* Chat area */
+.chat-container {
+  height: 60vh;
+  overflow-y: auto;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #f9f9f9;
+}
+
+/* Chat messages */
+.user-message {
+  background-color: #e1f5fe;
+  padding: 0.8rem;
+  margin-bottom: 0.8rem;
+  border-radius: 15px 15px 2px 15px;
+  max-width: 80%;
+  margin-left: auto;
+  word-wrap: break-word;
+}
+
+.bot-message {
+  background-color: #f1f1f1;
+  padding: 0.8rem;
+  margin-bottom: 0.8rem;
+  border-radius: 15px 15px 15px 2px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+/* Input area */
+.input-area {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.input-with-button {
+  display: flex;
+  flex-grow: 1;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.chat-list {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.chat-item {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.chat-item:hover {
+  background-color: #e6e6e6;
+}
+
+.active-chat {
+  background-color: #e1f5fe;
+  font-weight: bold;
+}
+
+/* Toggle button */
+.context-toggle {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Timestamp */
+.timestamp {
+  font-size: 0.7rem;
+  color: #888;
+  margin-top: 0.2rem;
+  text-align: right;
+}
+
+/* Loading spinner */
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+}
+
+/* Utility class for vertical spacing */
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 1rem;
+}
+
+/* Auth forms */
+.auth-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+/* User info */
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.username {
+  font-weight: bold;
+}
+
+/* Chat title */
+.chat-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
